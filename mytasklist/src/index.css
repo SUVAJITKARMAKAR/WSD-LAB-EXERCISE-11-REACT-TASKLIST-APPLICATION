@@ -124,7 +124,10 @@ ul li {
 
   font-size: 18px;
 }
-
+.footer {
+  position: fixed;
+  margin-top: 90vh;
+}
 
 /* REACT-HOVER-SECTION */
 .main h1:hover {

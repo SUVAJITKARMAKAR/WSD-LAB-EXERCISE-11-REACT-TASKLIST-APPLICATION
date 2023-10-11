@@ -68,6 +68,12 @@ function TaskList() {
         </button>
       </div>
 
+      <div 
+      className='footer'
+      placeholder='MADE BY SUVAJITKARMAKAR'
+      >
+        MADE WITH ❤️ BY SUVAJITKARMAKAR
+      </div>
     </div>
   );
 }
