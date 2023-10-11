@@ -1,0 +1,133 @@
+/* CSS - RESET - SECTION - REACT */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+/* REACT - MAIN - DIV */
+.main {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-size: 130px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px cornflowerblue;
+  margin: 30px;
+}
+
+ul {
+  width: 70%;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 30px;
+  margin: 10px;
+  border-radius: 10px;
+
+  background-color: rgb(221, 212, 212);
+}
+
+.taskField {
+  border-style: none;
+  outline: none;
+  color: black;
+  background: white;
+  
+  padding: 5px 15px 5px 3px;
+  border-radius: 5px;
+}
+
+.btnEdit {
+  position: absolute;
+  margin-left: 1240px;
+
+  padding: 6px 7px;
+  border-style: none;
+  outline: none;
+  background-color: limegreen;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnDelete {
+  position: absolute;
+  margin-left: 1300px;
+  
+  padding: 6px 7px;
+  border-style: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnSave {
+  position: absolute;
+  margin-left: 1300px;
+
+    
+  padding: 6px 7px;
+  border-style: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.taskAdder {
+  margin-inline: 10px;
+}
+
+.inputBox {
+  margin-right: 10px;
+  width: 1265px;
+  padding: 15px 30px;
+
+  font-size: 17px;
+  border-radius: 10px;
+  
+  border-style: none;
+  outline: none;
+
+  background-color: rgb(229, 183, 229);
+  color: black;
+}
+
+.inputBox::placeholder {
+  color: black;
+}
+
+.taskAdderButton {
+  margin-top: 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+
+  border-style: none;
+  outline: none;
+
+  background-color: cornflowerblue;
+  color: black;
+
+  font-size: 18px;
+}
+
+
+/* REACT-HOVER-SECTION */
+.main h1:hover {
+  cursor: pointer;
+  -webkit-text-fill-color: cornflowerblue;
+}
